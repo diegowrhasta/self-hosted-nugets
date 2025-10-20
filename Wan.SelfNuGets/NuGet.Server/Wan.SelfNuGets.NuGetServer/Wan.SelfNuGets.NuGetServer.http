@@ -1,6 +1,0 @@
-@Wan_SelfNuGets_NuGetServer_HostAddress = http://localhost:5294
-
-GET {{Wan_SelfNuGets_NuGetServer_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
