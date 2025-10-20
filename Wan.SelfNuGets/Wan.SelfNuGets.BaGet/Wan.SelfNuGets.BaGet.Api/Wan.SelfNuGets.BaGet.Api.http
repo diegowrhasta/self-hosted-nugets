@@ -1,0 +1,6 @@
+@Wan.SelfNuGets.BaGet.Api_HostAddress = http://localhost:5183
+
+GET {{Wan.SelfNuGets.BaGet.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
