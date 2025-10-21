@@ -1,3 +1,5 @@
+using Wan.SelfNuGets.BaGet.TestLibrary;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -32,6 +34,12 @@ app.MapGet("/weatherforecast", () =>
         return forecast;
     })
     .WithName("GetWeatherForecast");
+
+app.MapGet("/test", () => Results.Ok(new TestClass
+{
+    Id = 1,
+    Name = "test"
+}));
 
 app.Run();
 
