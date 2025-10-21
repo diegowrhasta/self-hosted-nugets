@@ -4,6 +4,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	ProjectSection(SolutionItems) = preProject
 		..\README.md = ..\README.md
 		nuget.config = nuget.config
+		Wan.SelfNuGets.BaGet\Wan.SelfNuGets.BaGet.TestLibrary\publish.sh = Wan.SelfNuGets.BaGet\Wan.SelfNuGets.BaGet.TestLibrary\publish.sh
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wan.SelfNuGets.BaGet.TestLibrary", "Wan.SelfNuGets.BaGet\Wan.SelfNuGets.BaGet.TestLibrary\Wan.SelfNuGets.BaGet.TestLibrary.csproj", "{794D5634-2292-4059-8BB2-AADF3C63F77F}"
